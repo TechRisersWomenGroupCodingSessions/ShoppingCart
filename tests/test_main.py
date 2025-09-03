@@ -15,6 +15,12 @@ def test_price_of_one_carrot():
     result = check_price(item)
     assert result == 20
 
+def test_special_price_of_apples():
+    item = "Apple"
+    quantity = 3
+    result = check_price(item, quantity)
+    assert result == 130
+
 #
 # Item             Unit              Special
 # Price            Price

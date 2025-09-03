@@ -5,5 +5,5 @@ items = {
     "Carrot":20,
 }
 
-def check_price(item):
+def check_price(item, quantity = 1):
     return items[item]
